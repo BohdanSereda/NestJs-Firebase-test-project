@@ -7,7 +7,6 @@ export class AuthService {
     async registration(createUserDto: CreateUserDto) {
 
     }
-
     async login(createUserDto: CreateUserDto) {
     }
 }
