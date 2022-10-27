@@ -10,7 +10,6 @@ export class CreateUserDto {
         description: 'user email',
     })
     readonly email: string;
-
     @IsString()
     @IsNotEmpty()
     @ApiProperty({
